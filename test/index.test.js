@@ -9,7 +9,7 @@ describe("基础测试", function () {
             codeDir: '',
             details: {
                 uncovlines: '1,2,4',
-                covlines: '1,2,4',
+                covlines: '3,4,5',
                 lines: {
                     hit: 1,
                     found: 12
@@ -23,10 +23,10 @@ describe("基础测试", function () {
                     found: 12
                 },
             },
-            fileTitle: "测试脚本",
-            module: "测试",
+            fileTitle: "index",
+            module: "src",
             rates: {
-                functionsRate: '100',
+                functionsRate: '120',
                 linesRate: '100',
                 branchesRate: '100'
             }
